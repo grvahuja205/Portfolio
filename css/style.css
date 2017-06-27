@@ -1,0 +1,205 @@
+body {
+	font-size: 18px;
+	color: #111;
+	font-family: sans-serif, Arial;
+	/*background-color: #E5CBFE;*/
+
+}
+header, section {
+	max-width: 960px;
+	margin: auto;
+}
+
+h1, h2 {
+	text-align: center;
+}
+
+h2 {
+	font-size: 24px;
+	font-weight: 900;
+}
+
+footer {
+	bottom: 0;
+	height: 150px;
+	width: 100%;
+	background-color: #393331;
+	border-radius: 5px;
+}
+
+#grad {
+	height: 100px;
+	background: #93D0FA;/* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(left, #93D0FA , #0159FD); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right, #93D0FA , #0159FD); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right, #93D0FA , #0159FD); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to right, #93D0FA , #0159FD); /* Standard syntax (must be last) */
+    border-radius: 5px;
+}
+
+.flex-container {
+	display: -webkit-flex;/* For Safari 5.1 to 6.0 */
+  	display: -ms-flexbox;/* For Older Internet Explorer */
+  	display: -moz-flexbox;/* For Firefox 3.6 to 15 */
+	display: flex;
+}
+
+.flex-vert {
+	-webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    -moz-flex-direction: column;
+	flex-direction: column;
+	-webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    -moz-flex-wrap: wrap;
+	flex-wrap: wrap;
+}
+
+.flex-horiz {
+	-webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    -moz-flex-wrap: wrap;
+	flex-wrap: wrap;
+}
+
+.head {
+	max-width: 100%;
+	max-height: 120px;
+	margin-top: 10px;
+}
+
+.left {
+	float: left;
+}
+
+.right {
+	float: right;
+}
+
+.logo {
+	font-family: "Great Vibes", Arial;
+	font-size: 48px;
+	color: #9633FF;
+	padding: 30px 0 0 0;
+	text-shadow: 2px 2px;
+	font-weight: 900;
+}
+
+.name {
+	text-transform: uppercase;
+	font-family: 'Berkshire Swash', cursive;
+	color: #2d3c49;
+	padding: 30px 0 0 0;
+	font-size: 48px;
+	font-weight: 100;
+}
+
+.designation {
+	text-transform: uppercase;
+	font-weight: 900;
+	font-size: 20px;
+	padding-top: 10px;
+}
+
+.short-bio {
+	text-align: center;
+	color: #666D7D;
+	font-size: 18px;
+}
+
+.clear {
+	clear: both;
+}
+
+.summary {
+	width: 100%;
+	background-color: #E5CBFE;
+	border-radius: 5px;
+	text-align: justify;
+}
+
+section li {
+	font-family: 'EB Garamond', serif;
+	line-height: 1.5em;
+	font-size: 20px;
+}
+
+.work-projects a {
+	text-decoration: none;
+	color: #463F3D;
+	box-shadow: none;
+    transition: box-shadow 0.5s;
+}
+
+.work-projects a:hover {
+	box-shadow: 0 0 3px #515151;
+}
+
+.projects {
+	margin: 0 10px 20px 10px;
+	max-width: 300px;
+}
+
+.projects:last-of-type {
+	margin: 0 10px 20px 10px;
+}
+
+.projects h3 {
+	text-transform: uppercase;
+	text-align: center;
+	margin: 10px 0 5px 0;
+}
+
+.projects p {
+	text-align: center;
+	margin: 0 0 0 0;
+}
+
+.skill-table {
+	display: block;
+	width: 100%;
+}
+
+.fa {
+  padding: 20px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: auto;
+  border-radius: 50%;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-google {
+  background: #dd4b39;
+  color: white;
+}
+
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+
+.fa-git {
+	background: #111;
+	color: white;
+}
+
+.fa-phone {
+	background: #ea4c89;
+  	color: white;
+}
+
+@media screen and (max-width: 550px) {
+	.name {font-size: 22px;}
+	.designation {font-size: 14px;}
+	/*body {overflow-x: auto;}*/
+}
